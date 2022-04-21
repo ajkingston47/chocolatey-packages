@@ -5,20 +5,26 @@
     <version>4.7.0.433</version>
     <title>Dell Command Configure</title>
     <authors>mrawesome139</authors>
-    <projectUrl>FILL_IN_WITH_GITHUB<projectUrl>
-    <license>LICENSE_LINK<license>
-    <iconUrl>LINK TO GITHUB <iconUrl>
+    
+    <projectUrl>https://github.com/mrawesome139/chocolatey-packages/tree/main/manual/dell-command-configure<projectUrl>
+    <license>https://dl.dell.com/content/manual33251382-third-party-licenses-for-dell-command-configure.pdf?language=en-us&ps=true<license>
+    <iconUrl>https://raw.githubusercontent.com/mrawesome139/chocolatey-packages/main/icons/cctkgui_32512.ico<iconUrl>
+
     <releaseNotes>
     - Added support for SaveConfig attribute.
     - Added support for encryption and decryption in Linux.
     - The Restore BIOS Settings option supports five configurations, namely, Factory Default, Built in Safe, Last Known Good, User Config1, User Config2.
     - Renamed the SysDefault attribute to RestoreBIOSSettings.<releaseNotes>
+
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
+
     <description>
     Dell Command | Configure is a packaged software application that provides configuration capability to business client platforms. 
     This product consists of a Command Line Interface (CLI) and Graphical User Interface (GUI) to configure various BIOS features.
     Dell Command | Configure supports following Windows and Linux operating systems: Windows 10, Windows Pre-installation Environment (Windows PE), Red Hat Enterprise Linux 7, Red Hat Enterprise Linux 8, Ubuntu Desktop 16.04, Ubuntu Desktop18.04, Ubuntu Server 18.04 and Ubuntu Desktop 20.04.</description>
+
     <summary>Dell Command | Configure is a packaged software application that provides configuration capability to business client platforms.</summary>
+
     <tags>dell-command-configure remote deployment bios firmware configuration multiplatform uefi</tags>
   </metadata>
 </package>
