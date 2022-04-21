@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>dell-command-configure</id>
@@ -6,9 +6,9 @@
     <title>Dell Command Configure</title>
     <authors>mrawesome139</authors>
     
-    <projectUrl>https://github.com/mrawesome139/chocolatey-packages/tree/main/manual/dell-command-configure<projectUrl>
     <license>https://dl.dell.com/content/manual33251382-third-party-licenses-for-dell-command-configure.pdf?language=en-us&ps=true<license>
     <iconUrl>https://raw.githubusercontent.com/mrawesome139/chocolatey-packages/main/icons/cctkgui_32512.ico<iconUrl>
+    <docsUrl>https://www.dell.com/support/home/en-us/product-support/product/command-configure/docs</docsUrl>
 
     <releaseNotes>
     - Added support for SaveConfig attribute.
@@ -27,4 +27,7 @@
 
     <tags>dell-command-configure remote deployment bios firmware configuration multiplatform uefi</tags>
   </metadata>
+   <files>
+    <file src="tools\**" target="tools" />
+  </files>
 </package>
