@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>dell-command-configure</id>
     <version>4.7.0.433</version>
     <title>Dell Command Configure</title>
     <authors>mrawesome139</authors>
     
-    <license>https://dl.dell.com/content/manual33251382-third-party-licenses-for-dell-command-configure.pdf?language=en-us&ps=true<license>
-    <iconUrl>https://raw.githubusercontent.com/mrawesome139/chocolatey-packages/main/icons/cctkgui_32512.ico<iconUrl>
+    <licenseUrl>https://www.dell.com/support/manuals/en-us/command-configure/dcc_tpl/third-party-licenses?guid=guid-4dd46c27-5b4d-47af-af99-1b28430a8bf5</licenseUrl>
+    <iconUrl>https://raw.githubusercontent.com/mrawesome139/chocolatey-packages/main/icons/cctkgui_32512.ico</iconUrl>
     <docsUrl>https://www.dell.com/support/home/en-us/product-support/product/command-configure/docs</docsUrl>
 
     <releaseNotes>
     - Added support for SaveConfig attribute.
     - Added support for encryption and decryption in Linux.
     - The Restore BIOS Settings option supports five configurations, namely, Factory Default, Built in Safe, Last Known Good, User Config1, User Config2.
-    - Renamed the SysDefault attribute to RestoreBIOSSettings.<releaseNotes>
+    - Renamed the SysDefault attribute to RestoreBIOSSettings.
+    </releaseNotes>
 
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
 
