@@ -8,7 +8,7 @@
     <owners>mrawesome139</owners>
 
     <licenseUrl>https://www.dell.com/learn/us/en/uscorp1/terms-of-sale-consumer-license-agreements</licenseUrl>
-    <iconUrl>https://raw.githubusercontent.com/mrawesome139/chocolatey-packages/main/icons/cctkgui_32512.ico</iconUrl>
+    <iconUrl>https://rawcdn.githack.com/mrawesome139/chocolatey-packages/88cbc92f51b4685312a4a29005a9ee4e9169ad95/icons/dell-command-configure.png</iconUrl>
     <docsUrl>https://www.dell.com/support/home/en-us/product-support/product/command-configure/docs</docsUrl>
     <packageSourceUrl>https://github.com/mrawesome139/chocolatey-packages/tree/main/manual/dell-command-configure</packageSourceUrl>
     <projectUrl>https://www.dell.com/support/kbdoc/en-us/000178000/dell-command-configure</projectUrl>
