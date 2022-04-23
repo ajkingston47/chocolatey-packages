@@ -7,8 +7,8 @@
     <authors>mrawesome139</authors>
     <owners>mrawesome139</owners>
 
-    #UPDATE#<licenseUrl>https://www.dell.com/learn/us/en/uscorp1/terms-of-sale-consumer-license-agreements</licenseUrl>
-    <iconUrl>https://raw.githubusercontent.com/mrawesome139/chocolatey-packages/main/icons/cctkgui_32512.ico</iconUrl>
+    <licenseUrl>https://www.dell.com/learn/us/en/uscorp1/terms-of-sale-consumer-license-agreements</licenseUrl>
+    <iconUrl>https://rawcdn.githack.com/mrawesome139/chocolatey-packages/5f44f27918139fb2832875bc7f705e7b72ea1e39/icons/dell-command-monitor.png</iconUrl>
     <docsUrl>https://www.dell.com/support/home/en-us/product-support/product/command-monitor/docs</docsUrl>
     <packageSourceUrl>https://github.com/mrawesome139/chocolatey-packages/tree/main/manual/dell-command-monitor</packageSourceUrl>
     <projectUrl>https://www.dell.com/support/kbdoc/en-us/000177080/dell-command-monitor</projectUrl>
