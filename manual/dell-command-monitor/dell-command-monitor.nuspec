@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>dell-command-monitor</id>
+    <version>10.7.0.232</version>
+    <title>Dell Command | Monitor</title>
+    <authors>mrawesome139</authors>
+    <owners>mrawesome139</owners>
+
+    #UPDATE#<licenseUrl>https://www.dell.com/learn/us/en/uscorp1/terms-of-sale-consumer-license-agreements</licenseUrl>
+    <iconUrl>https://raw.githubusercontent.com/mrawesome139/chocolatey-packages/main/icons/cctkgui_32512.ico</iconUrl>
+    <docsUrl>https://www.dell.com/support/home/en-us/product-support/product/command-monitor/docs</docsUrl>
+    <packageSourceUrl>https://github.com/mrawesome139/chocolatey-packages/tree/main/manual/dell-command-monitor</packageSourceUrl>
+    <projectUrl>https://www.dell.com/support/kbdoc/en-us/000177080/dell-command-monitor</projectUrl>
+    <copyright>2022 Dell</copyright>
+
+    <releaseNotes>
+    - Added support for Save BIOS Defaults method.
+    - Added Intel AMT capability support for four values - Disable, Enable, Restrict MEBx Access, Restrict Preboot Access.
+    - Removed the Simple Network Management Protocol (SNMP) support.
+    </releaseNotes>
+
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+
+    <description>
+    The Dell Command | Monitor software application enables IT administrators to easily manage fleet inventory, monitor system health, modify BIOS settings, and remotely collect information for deployed Dell client systems. 
+    Active system health state monitoring can help reduce the total cost of system ownership and is part of a holistic approach to managing all networked devices.
+    Dell Command | Monitor interfaces with leading enterprise management consoles that support industry standards. This approach helps to ensure that Dell systems can be managed by a broad array of existing enterprise management tools. 
+    It also interfaces with the Dell Integration Suite for System Center 2012, Dell KACE K1000 Management Appliance , Dell OpenManage Essentials and our Client Management Pack for System Center Operations Manager (SCOM). 
+    Finally, tight integration with Windows Management Instrumentation (WMI) allows customers to take advantage of the rich scripting capabilities for collecting information and customizing system settings. This product is provided at no additional charge to Dell customers.</description>
+
+    <summary>The Dell Command | Monitor software application enables IT administrators to easily manage fleet inventory, monitor system health, modify BIOS settings, and remotely collect information for deployed Dell client systems.</summary>
+
+    <tags>dell-command-monitor bios firmware wmi uefi sccm acpi</tags>
+  </metadata>
+   <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
