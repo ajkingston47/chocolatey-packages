@@ -5,16 +5,20 @@
     <version>4.7.0.433</version>
     <title>Dell Command Configure</title>
     <authors>mrawesome139</authors>
-    
-    <licenseUrl>https://www.dell.com/support/manuals/en-us/command-configure/dcc_tpl/third-party-licenses?guid=guid-4dd46c27-5b4d-47af-af99-1b28430a8bf5</licenseUrl>
+    <owners>mrawesome139</owners>
+
+    <licenseUrl>https://www.dell.com/learn/us/en/uscorp1/terms-of-sale-consumer-license-agreements</licenseUrl>
     <iconUrl>https://raw.githubusercontent.com/mrawesome139/chocolatey-packages/main/icons/cctkgui_32512.ico</iconUrl>
     <docsUrl>https://www.dell.com/support/home/en-us/product-support/product/command-configure/docs</docsUrl>
+    <packageSourceUrl>https://github.com/mrawesome139/chocolatey-packages/tree/main/manual/dell-command-configure</packageSourceUrl>
+    <projectUrl>https://www.dell.com/support/kbdoc/en-us/000178000/dell-command-configure</projectUrl>
+    <copyright>2022 Dell</copyright>
 
     <releaseNotes>
-    - Added support for SaveConfig attribute.
-    - Added support for encryption and decryption in Linux.
-    - The Restore BIOS Settings option supports five configurations, namely, Factory Default, Built in Safe, Last Known Good, User Config1, User Config2.
-    - Renamed the SysDefault attribute to RestoreBIOSSettings.
+      - Added support for SaveConfig attribute.
+      - Added support for encryption and decryption in Linux.
+      - The Restore BIOS Settings option supports five configurations, namely, Factory Default, Built in Safe, Last Known Good, User Config1, User Config2.
+      - Renamed the SysDefault attribute to RestoreBIOSSettings.
     </releaseNotes>
 
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
