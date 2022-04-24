@@ -23,6 +23,8 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
 
     <description>
+    NOTICE: This package will fail if the target system is not a Dell business platform with compatible WMI-ACPI firmware. If you are using a Dell business platform and it is still failing, try updating your firmware and re-attempting the install.
+    
     The Dell Command | Monitor software application enables IT administrators to easily manage fleet inventory, monitor system health, modify BIOS settings, and remotely collect information for deployed Dell client systems. 
     Active system health state monitoring can help reduce the total cost of system ownership and is part of a holistic approach to managing all networked devices.
     Dell Command | Monitor interfaces with leading enterprise management consoles that support industry standards. This approach helps to ensure that Dell systems can be managed by a broad array of existing enterprise management tools. 
