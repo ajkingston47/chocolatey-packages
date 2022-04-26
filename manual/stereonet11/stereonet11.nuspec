@@ -3,11 +3,11 @@
   <metadata>
     <id>stereonet11</id>
     <version>11.4.0</version>
-    <packageSourceUrl>https://github.com</packageSourceUrl>
+    <packageSourceUrl>https://github.com/mrawesome139/chocolatey-packages/tree/main/manual/stereonet11</packageSourceUrl>
     <owners>mrawesome139</owners>
     <title>StereoNet 11</title>
     <authors>mrawesome139</authors>
-    <projectUrl>https://MYGITHUBPAGE.com</projectUrl>
+    <projectUrl>https://www.rickallmendinger.net/stereonet</projectUrl>
     <iconUrl>http://rawcdn.githack.com/mrawesome139/master/icons/stereonet.png</iconUrl>
     <copyright>2020-2022 StereoNet Richard W. Allmendinger</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
