@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>stereonet11</id>
+    <version>11.4.0</version>
+    <packageSourceUrl>https://github.com</packageSourceUrl>
+    <owners>mrawesome139</owners>
+    <title>StereoNet 11</title>
+    <authors>mrawesome139</authors>
+    <projectUrl>https://MYGITHUBPAGE.com</projectUrl>
+    <iconUrl>http://rawcdn.githack.com/mrawesome139/master/icons/stereonet.png</iconUrl>
+    <copyright>2020-2022 StereoNet Richard W. Allmendinger</copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>stereonet geology opengl 3d plot</tags>
+    <summary>Stereonet 11 is a huge release with a completely new and robust internal data structure and an openGL 3D view of the lower hemisphere for teaching purposes.</summary>
+    <description>Stereonet 11 is a huge release with a completely new and robust internal data structure and an openGL 3D view of the lower hemisphere for teaching purposes. 
+    It includes almost all of the goodness of Stereonet 10 and lots of subtle new tweaks as well (check out the detailed version history, below). 
+    This version of Stereonet is compatible with all modern operating systems and has a modern user interface which has been modeled after OSXStereonet for Mac by Nestor Cardozo and me. 
+    It can read and write older Stereonet text files, can read the Stereonet 11 binary files, but saves its data in a new binary format. </description>
+    
+    <releaseNotes>Windows and Linux versions only: The map tab has been removed. If you want to keep the map tab, do not upgrade to this version. Google is dropping support for Internet Explorer which Stereonet for Windows uses internally to show the satellite image. 
+    In fact, the map view was always hobbled by the fact that Windows cannot display overlapping controls and therefore Stereonet could never display the strike and dip symbols.
+    -Parsing text file and clipboard text dialog now has a column for individual point labels.
+    -You can now set the font size of point labels in the Inspector Palette. The font size is specified on a per data set basis so you can use different sizes on different data sets (thanks, Connan).
+    -Labels are now carried over when you calculate poles from planes or planes from poles.
+    -Various bug fixes</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
