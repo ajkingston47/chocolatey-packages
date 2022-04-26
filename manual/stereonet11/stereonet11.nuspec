@@ -8,12 +8,22 @@
     <title>StereoNet 11</title>
     <authors>mrawesome139</authors>
     <projectUrl>https://www.rickallmendinger.net/stereonet</projectUrl>
-    <iconUrl>http://rawcdn.githack.com/mrawesome139/master/icons/stereonet.png</iconUrl>
+    <iconUrl>https://rawcdn.githack.com/mrawesome139/chocolatey-packages/7efb1ae576a51700263de2136232274c7789d4d9/icons/stereonet.png</iconUrl>
     <copyright>2020-2022 StereoNet Richard W. Allmendinger</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <tags>stereonet geology opengl 3d plot</tags>
     <summary>Stereonet 11 is a huge release with a completely new and robust internal data structure and an openGL 3D view of the lower hemisphere for teaching purposes.</summary>
-    <description>Stereonet 11 is a huge release with a completely new and robust internal data structure and an openGL 3D view of the lower hemisphere for teaching purposes. 
+    <description>
+    Academic Users:
+    If you work for academic, government, or non-profit institutions you may download and use this software for free. We only ask that you acknowledge the use of these programs in your published papers, talks, and reports. 
+    We also ask that you reference the key scientific publications where the algorithms behind the programs are described. 
+    Though we definitely want to hear about any bugs that you find, it is always really nice to hear from someone whose life was made a little easier by our software!
+
+    Commercial Users:
+    Restrictions on use vary by program and also based on the details of your usage scenario. Please contact Rick Allmendinger (or Néstor Cardozo for any programs on his site) for details.
+    Finally, if you find our programs to be useful in your commercial activity, don't you think you should be supporting our research efforts?
+
+    Stereonet 11 is a huge release with a completely new and robust internal data structure and an openGL 3D view of the lower hemisphere for teaching purposes. 
     It includes almost all of the goodness of Stereonet 10 and lots of subtle new tweaks as well (check out the detailed version history, below). 
     This version of Stereonet is compatible with all modern operating systems and has a modern user interface which has been modeled after OSXStereonet for Mac by Nestor Cardozo and me. 
     It can read and write older Stereonet text files, can read the Stereonet 11 binary files, but saves its data in a new binary format. </description>
