@@ -6,7 +6,7 @@
     <packageSourceUrl>https://github.com/mrawesome139/chocolatey-packages/tree/main/manual/stereonet11</packageSourceUrl>
     <owners>mrawesome139</owners>
     <title>StereoNet 11</title>
-    <authors>mrawesome139</authors>
+    <authors>Richard W. Allmendinger</authors>
     <projectUrl>https://www.rickallmendinger.net/stereonet</projectUrl>
     <iconUrl>https://rawcdn.githack.com/mrawesome139/chocolatey-packages/7efb1ae576a51700263de2136232274c7789d4d9/icons/stereonet.png</iconUrl>
     <copyright>2020-2022 StereoNet Richard W. Allmendinger</copyright>
