@@ -8,10 +8,10 @@
     <title>HTerm</title>
     <authors>Tobias Hammer</authors>
     <projectUrl>https://www.der-hammer.info/pages/terminal.html</projectUrl>
-    <iconUrl>http://rawcdn.githack.com/__REPLACE_YOUR_REPO__/master/icons/hterm.png</iconUrl>
+    <iconUrl>https://rawcdn.githack.com/mrawesome139/chocolatey-packages/6ffce2a747366af41a15c4472dd964b3beb1137b/icons/hterm.png</iconUrl>
     <copyright>2022 Tobias Hammer</copyright>
     <licenseUrl>https://www.der-hammer.info/terminal/LICENSE.txt</licenseUrl>
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>-->
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <tags>hterm hex binary asci dec serial rs232 commands lowlevel</tags>
     <summary>HTerm is a terminal program for serial communication running on Windows and Linux.</summary>
     <description>
