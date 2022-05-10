@@ -24,9 +24,10 @@ if($pp['DesktopShortCut']){
   Install-ChocolateyShortcut @ShortcutArgs
 }
 if($pp['StartMenu']){
-  New-Item -ItemType 'directory' -Path "$env:ProgramData\Microsoft\Windows\Start Menu\Programs\HTerm"
+  $StartMenuPath = "$env:ProgramData\Microsoft\Windows\Start Menu\Programs\Hterm"
+  New-Item -ItemType 'directory' -Path "$StartMenuPath"
   $ShortcutArgs = @{
-    ShortcutFIlePath = "$env:Public\desktop\HTerm.lnk"
+    ShortcutFIlePath = "$StartMenuPath\HTerm.lnk"
     TargetPath = "$toolsdir\hterm.exe"
     IconLocation = "$toolsdir\hterm.exe"
   } 
