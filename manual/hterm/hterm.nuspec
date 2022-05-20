@@ -3,7 +3,7 @@
   <metadata>
     <id>hterm</id>
     <version>0.8.6</version>
-    <<packageSourceUrl>https://github.com/mrawesome139/chocolatey-packages/tree/main/manual/hterm</packageSourceUrl>
+    <packageSourceUrl>https://github.com/mrawesome139/chocolatey-packages/tree/main/manual/hterm</packageSourceUrl>
     <owners>mrawesome139</owners>
     <title>HTerm</title>
     <authors>Tobias Hammer</authors>
@@ -26,6 +26,9 @@
     -Customization via XML configuration file
 
     Consider supporting HTerm via Paypal or contact me directly. Donate at the "Software Site."
+
+    Package Parameters:
+    /DesktopShortCut=True
       </description>
   <releaseNotes>
   Version 0.8.6
@@ -40,7 +43,6 @@
     </releaseNotes>
   </metadata>
   <files>
-    <!-- this section controls what actually gets packaged into the Chocolatey package -->
     <file src="tools\**" target="tools" />
   </files>
 </package>
