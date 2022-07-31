@@ -1,6 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop';
 
-$Checksum = 'D31904CE46CDE0808C13934E4C9E7EA263E3D2FD4DF0EC204230B6A2733C9131'
+$Checksum = '265C730ABE219BE26CC8D48CEE67ACD9C520C158D7BC8E8B6EFB617AC50A205D'
 $checksumType = 'sha256'
 $url        = 'https://www.rickallmendinger.net/s/SetupStereonet64.exe'
 $fileType = 'exe'

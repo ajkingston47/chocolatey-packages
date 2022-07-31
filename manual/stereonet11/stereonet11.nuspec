@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>stereonet11</id>
-    <version>11.4.0</version>
+    <version>11.42.0</version>
     <packageSourceUrl>https://github.com/mrawesome139/chocolatey-packages/tree/main/manual/stereonet11</packageSourceUrl>
     <owners>mrawesome139</owners>
     <title>StereoNet 11</title>
