@@ -1,11 +1,11 @@
 ﻿$ErrorActionPreference = 'Stop';
 
-[string]$FileLink = "https://dl.dell.com/FOLDER08397184M/1/Dell-Command-Monitor_6R5YG_WIN64_10.7.0.232_A00.EXE"                    
+[string]$FileLink = "https://dl.dell.com/FOLDER08796448M/1/Dell-Command-Monitor_KJ0VF_WIN_10.8.0.284_A00.EXE"                    
 [string]$fileType = 'exe'
 [string]$silentArgs   = '/s'   
 [string]$ChecksumType = 'sha256'
-[string]$Checksum64 = 'fa0ca4af4a6ea579708dcf890c66e22897baffb92bb73872100e291a20d4185a'    
-$validExitCodes= @(0, 3010, 1641)                               
+[string]$Checksum64 = 'b9201ed7a56c3fe70b6b97d2ef33f36f0e5a9ec8bfd5737afb2431dc5446abf3'    
+$validExitCodes= @(0, 3010, 1641, 2)                               
 
 $InstallArgs = @{
   packageName    = $env:ChocolateyPackageName

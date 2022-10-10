@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>dell-command-monitor</id>
-    <version>10.7.0.232</version>
+    <version>10.8.0.284</version>
     <title>Dell Command | Monitor</title>
     <authors>Dell Inc Software Developers</authors>
     <owners>mrawesome139</owners>
@@ -15,9 +15,8 @@
     <copyright>2022 Dell</copyright>
 
     <releaseNotes>
-    - Added support for Save BIOS Defaults method.
-    - Added Intel AMT capability support for four values - Disable, Enable, Restrict MEBx Access, Restrict Preboot Access.
-    - Removed the Simple Network Management Protocol (SNMP) support.
+    - Enhanced the warranty feature.
+    - Added support for Dell Universal Dock UD22.
     </releaseNotes>
 
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
