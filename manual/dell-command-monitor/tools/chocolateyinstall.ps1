@@ -5,7 +5,7 @@
 [string]$silentArgs   = '/s'   
 [string]$ChecksumType = 'sha256'
 [string]$Checksum64 = 'b9201ed7a56c3fe70b6b97d2ef33f36f0e5a9ec8bfd5737afb2431dc5446abf3'    
-$validExitCodes= @(0, 3010, 1641, 2)                               
+$validExitCodes= @(0,2,6)                               
 
 $InstallArgs = @{
   packageName    = $env:ChocolateyPackageName
